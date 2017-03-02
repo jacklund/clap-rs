@@ -548,7 +548,7 @@ extern crate atty;
 
 #[cfg(feature = "yaml")]
 pub use yaml_rust::YamlLoader;
-pub use args::{Arg, ArgGroup, ArgMatches, ArgSettings, SubCommand, Values, OsValues};
+pub use args::{Arg, ArgGroup, ArgMatches, ArgSettings, MatchedArg, SubCommand, Values, OsValues};
 pub use app::{App, AppSettings};
 pub use fmt::Format;
 pub use errors::{Error, ErrorKind, Result};

@@ -23,5 +23,6 @@ impl Default for MatchedArg {
 }
 
 impl MatchedArg {
+    /// Create a new `MatchedArg`
     pub fn new() -> Self { MatchedArg::default() }
 }
